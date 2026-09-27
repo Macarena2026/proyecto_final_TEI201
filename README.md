@@ -1,15 +1,17 @@
 ### Información del Equipo
 - **Integrantes:**
-  - Nombre 1 - Rol 1
-  - Nombre 2 - Rol 2
-  - Nombre 3 - Rol 3
-  - Nombre 4 - Rol 4
+  - Nombre 1 - Macarena Aldana
+  - Nombre 2 - Sofia Godoy
+  - Nombre 3 - Daniela Oñate
   
-- **ODS Seleccionado:** [Número y nombre]
-- **Problema a resolver:** [Descripción breve]
+- **ODS Seleccionado:**
+  Número 3: Salud y Bienestar
+  Número 10: Reducción de Desigualdades 
+- **Problema a resolver:**
+Las personas ciegas o con dificultad visual no pueden identificar objetos por sobre el torso porque sus métodos de reconocimiento se limitan a elementos cercanos al suelo, específicamente al encontrarse con cuerpos con forma de T durante sus caminatas, lo cual genera situaciones peligrosas para la salud física y mental de 4.6 millones de personas con pérdida de visión parcial y 150 mil con ceguera total en Chile. 
 
 ### Descripción del Proyecto
-[Breve descripción de la solución IoT propuesta]
+Se propone generar un dispositivo con forma de lentes capaz de mediante vibraciones alertar al usuario de la existencia de objetos, sobre su torso, ubicados en su camino. 
 
 ### Estado del Proyecto
 - **Versión actual:** v3.0
