@@ -1,57 +1,16 @@
-# Código Fuente
+# Código fuente
 
-## Archivos Principales
+## `main.ino`
+Programa principal en C++ para Arduino-ESP32. Incluye la inicialización I²C del sensor de distancia, lectura continua, decisión según umbrales y control PWM del motor vibrador.
 
-### `main.ino`
-Archivo principal del proyecto Arduino/ESP32
+### Pines configurados
+| Función | GPIO |
+|---|---:|
+| SDA del sensor | 4 |
+| SCL del sensor | 5 |
+| Motor (señal PWM al circuito de manejo) | 6 |
 
-**Estructura:**
-- Setup: Inicialización del sistema
-- Loop: Ciclo principal de ejecución
+**Importante:** comprobar el pinout de la placa ESP32 Mini exacta. GPIO 6 no está disponible para uso general en algunas variantes ESP32. El motor no debe conectarse directamente a un GPIO si su corriente excede la capacidad del pin; usar el transistor/circuito de manejo del esquema.
 
-### Otros archivos (si aplica)
-- `config.h` - Configuraciones y constantes
-- `sensores.h` / `sensores.cpp` - Funciones de sensores
-- `actuadores.h` / `actuadores.cpp` - Control de actuadores
-- `comunicacion.h` / `comunicacion.cpp` - WiFi/Bluetooth
-
----
-
-## Estándares de Código
-
-### Comentarios
-```cpp
-// Comentarios en español
-// Explicar QUÉ hace y POR QUÉ (no solo el CÓMO)
-
-/**
- * Función: leerTemperatura
- * Descripción: Lee temperatura del sensor DHT22
- * Retorna: float - Temperatura en grados Celsius
- */
-float leerTemperatura() {
-  // código
-}
-```
-
-### Nombres de Variables
-- Variables: `camelCase`
-- Constantes: `UPPER_SNAKE_CASE`
-- Funciones: `camelCase()`
-
----
-
-## Testing y Debugging
-
-### Modo Debug
-Descomentar para activar modo debug:
-```cpp
-#define DEBUG true
-```
-
-### Monitor Serial
-- Baudrate: 115200
-- Mensajes informativos con prefijos:
-  - `[INFO]` - Información general
-  - `[ERROR]` - Errores
-  - `[DEBUG]` - Debug
+### Salida serial
+Configurar el monitor serial a 115200 baudios. El programa muestra distancia en milímetros y ciclo de trabajo PWM.
