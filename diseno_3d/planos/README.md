@@ -8,4 +8,3 @@
 | [Plano encapsulado completo.pdf](./Plano%20encapsulado%20completo.pdf) | Vistas superior, inferior, frontal, trasera, laterales, cotas, tolerancias y cajetín técnico del encapsulado completo |
 
 
-[Ver plano técnico en PDF](./Plano%20encapsulado%20completo.pdf)
