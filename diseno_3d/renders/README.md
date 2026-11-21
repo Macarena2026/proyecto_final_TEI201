@@ -1,54 +1,26 @@
-# Renders de Alta Calidad
+## Renders
 
-## Renders Requeridos (Mínimo 4 ángulos)
+> **Renders del prototipo en Fusion 360.** Vistas generadas a partir del modelo CAD del encapsulado para lentes inteligentes con materiales, iluminación y anotaciones técnicas.
 
-### 1. Vista Isométrica Frontal
-`01_isometrica_frontal.png`
-- Muestra exterior completo
-- Iluminación clara
-- Resolución: 1920×1080 mínimo
+| Archivo | Qué muestra |
+| :--- | :--- |
+| [Render 1.png](./Render%201.png) | Vista en perspectiva exterior del encapsulado, puerto USB-C y ventilación |
+| [Render 2.png](./Render%202.png) | Vista complementaria del encapsulado y soporte de sujeción a la montura |
+| [Render 3.png](./Render%203.png) | Vista con transparencia o detalle del interior y componentes electrónicos |
+| [Render 4.png](./Render%204.png) | Vista adicional del ensamble y alojamiento del sensor |
+| [Render 5.png](./Render%205.png) | Vista final de detalle del prototipo |
 
-### Renders Opcionales (Recomendados)
-- `02_detalle_sensores.png` - Close-up de sensores
-- `03_ensamble_explosionado.png` - Componentes separados
-- `04_variantes_color.png` - Si hay opciones de diseño
+### Render 1 · Vista en perspectiva exterior
+![Render 1](./Render%201.png)
 
----
+### Render 2
+![Render 2](./Render%202.png)
 
-## Configuración de Render en Fusion 360
+### Render 3
+![Render 3](./Render%203.png)
 
-### Settings Recomendados
-- **Render Engine:** Local / Cloud
-- **Environment:** [Tipo de iluminación]
-- **Resolution:** 1920×1080 o superior
-- **Quality:** High
-- **Exposure:** [Ajustado para visibilidad]
-- **Effects:** Ambient Occlusion ON
+### Render 4
+![Render 4](./Render%204.png)
 
-### Materiales y Apariencias
-Asignar materiales realistas:
-- Plástico: PLA/ABS mate o satinado
-- Electrónica: PCB verde, componentes negros
-- Metales: Tornillos acero inoxidable
-
----
-
-## Nomenclatura de Archivos
-```
-[numero]_[descripcion]_[version].png
-
-Ejemplo:
-01_isometrica_frontal_v3.png
-```
-
----
-
-## Checklist de Calidad
-
-- [ ] Resolución mínima 1920×1080
-- [ ] Formato PNG (con transparencia si aplica)
-- [ ] Iluminación sin sombras excesivas
-- [ ] Componentes internos visibles en corte
-- [ ] Fondo neutro o contextual apropiado
-- [ ] Sin aliasing o bordes pixelados
-- [ ] Todos los componentes críticos visibles
+### Render 5
+![Render 5](./Render%205.png)
