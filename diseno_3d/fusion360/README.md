@@ -1,60 +1,12 @@
 # Archivos Fusion 360
 
-## Archivos Requeridos
+## Archivos de Fusion 360
 
-### `modelo_completo_v3.f3d`
-Archivo principal con **historial de cambios completo**
+| Archivo | Origen | Qué contiene |
+| :--- | :--- | :--- |
+| [Diseño inicial.stl](./Dise%C3%B1o%20inicial.stl) | Propio, iteración 1 | Primera versión conceptual de la carcasa para el prototipo de lentes inteligentes, se rechazo antes de finalizar debido a que se decidió que el diseño se adecuara a cualquier tipo de lente. |
+| [Diseño avance 2.stl](./Dise%C3%B1o%20avance%202.stl) | Propio, iteración 2 | Segunda versión con mejoras en la distribución interna de los componentes electrónicos (sensor VL53L0X y ESP32-S3). Idea conceptual sin medidas exactas. |
+| [Diseño Avance 3_.stl](./Dise%C3%B1o%20Avance%203_.stl) | Propio, iteración 3 | Versión refinada con canal óptico biselado para evitar reflejos IR, rejilla de ventilación para el motor vibrador y acoples laterales. Contiene espacio para la ESP3-S3 mini, la bateria LiPo 3,7V 500mAh, el motor de moneda, el sensor de movimiento y el interruptor. |
 
-**DEBE INCLUIR:**
--  Todos los componentes modelados
--  Ensamble completo funcional
--  Historial de diseño (timeline)
--  Materiales asignados
--  Constraints y relaciones
-
----
-
-## Estructura del Modelo
-
-### Componentes (Components)
-```
-Ensamble_Principal
-├── Encapsulado_Inferior
-├── Encapsulado_Superior
-├── ESP32_DevKit
-├── Sensor_DHT22
-├── LED_Indicador
-├── Soporte_Bateria
-├── Bracket_Montaje
-└── Tornilleria
-```
-
-### Uniones (Joints)
-Documentar las juntas principales y sus restricciones
-
-### Parámetros
-Listar parámetros principales utilizados:
-- `ancho_total = 120mm`
-- `alto_total = 80mm`
-- `grosor_pared = 2mm`
-
----
-
-## Instrucciones de Apertura
-
-1. Abrir Fusion 360
-2. File > Open > Seleccionar archivo `.f3d`
-3. Verificar que todas las referencias están cargadas
-4. Revisar timeline para ver historial
-
----
-
-## Versiones
-
-| Versión | Fecha | Cambios Principales |
-|---------|-------|---------------------|
-| v3.0 | [Fecha] | Versión final para Avance #3 |
-| v2.1 | [Fecha] | Ajustes post Avance #2 |
-| v1.0 | [Fecha] | Primera versión funcional |
-
----
+## Cómo abrirlos
+Para los .stl, haz clic en el archivo en GitHub y se abre el visor 3D.
