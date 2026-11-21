@@ -32,13 +32,13 @@ El modelo incluye el encapsulado, los alojamientos/volúmenes de los componentes
 | Formatos de modelo y fabricación | `.f3d` (CAD) y `.stl` (impresión 3D) |
 | Unidades | Milímetros (`mm`) |
 | Escala | 1:1 |
-| Material | Filamento para impresión 3D (ajustar según pieza real) |
-| Tolerancia | Ajustar según holgura de acople y cierre |
+| Material | PLA |
+| Tolerancia | ± 0,2 mm |
 
 ## Funcionalidad del encapsulado
 
-- El encapsulado aloja el ESP32-S3 y el cableado interno manteniendo separaciones y holguras respecto a las paredes.
+- El encapsulado aloja el ESP32-S3 mini y el cableado interno manteniendo separaciones y holguras respecto a las paredes.
 - Incorpora ranuras de ventilación para disipar el calor del módulo y el motor vibrador.
 - Deja accesible el puerto de conexión/carga (USB-C) sin interferir con el montaje en los lentes.
-- Posiciona el sensor VL53L0X en su alojamiento para evitar obstrucciones en su campo de medición.
+- Posiciona el sensor GY-530 en su alojamiento para evitar obstrucciones en su campo de medición.
 - El soporte de sujeción fija el módulo a la montura de los lentes manteniendo estabilidad durante el uso.
