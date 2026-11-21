@@ -12,9 +12,9 @@ El modelo incluye el encapsulado, los alojamientos/volúmenes de los componentes
 | :--- | :--- |
 | Carcasa / encapsulado principal y tapa | Modelada en Fusion 360 y exportada a `.stl` con bordes redondeados y alojamientos internos |
 | Soporte de sujeción a la montura | Modelado como acople/pinza y exportado a `.stl` para fijar el dispositivo a los lentes |
-| Microcontrolador ESP32-S3 | Incluido como volumen/componente de referencia en el interior del encapsulado |
-| Sensor ToF VL53L0X | Ubicado en el módulo/ventana frontal o inferior con línea de visión despejada |
-| Motor vibrador (3 V) y cableado / conexión | Integrado en su alojamiento con canalización de cables y aberturas de ventilación |
+| Microcontrolador ESP32-S3 mini | Incluido como volumen/componente de referencia en el interior del encapsulado |
+| Sensor de movimiento GY-530 | Ubicado en el módulo/ventana frontal o inferior con línea de visión despejada |
+| Motor vibrador de moneda (3.3 V) y cableado / conexión | Integrado en su alojamiento con canalización de cables y aberturas de ventilación |
 
 ## Carpetas
 
