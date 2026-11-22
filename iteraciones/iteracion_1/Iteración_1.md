@@ -25,4 +25,4 @@ Se decidió crear un nuevo diseño que permitiera acoplar el producto a los lent
 
 ## Archivos
 
-El archivo donde se muestra el modelo 3D sin terminar se encuentra en [diseño_3d/fusion360/Diseño inicial.stl]((https://github.com/Macarena2026/proyecto_final_TEI201/blob/main/diseno_3d/fusion360/Dise%C3%B1o%20inicial.stl))
+El archivo donde se muestra el modelo 3D sin terminar se encuentra en [diseno_3d/fusion360/Diseño inicial.stl](https://github.com/Macarena2026/proyecto_final_TEI201/blob/main/diseno_3d/fusion360/Dise%C3%B1o%20inicial.stl).
