@@ -23,4 +23,4 @@ El resumen de la simulación y pruebas se encuentra en el ...
 
 ## Archivos
 
-[diseno_3d/fusion360/Diseño Avance 3.stl](https://github.com/Macarena2026/proyecto_final_TEI201/blob/main/diseno_3d/fusion360/Dise%C3%B1o%20Avance%203.stl), [diseno_3d/fusion360/Diseño Avance 3.f3z](https://github.com/Macarena2026/proyecto_final_TEI201/blob/main/diseno_3d/fusion360/Dise%C3%B1o%20Avance%203.f3z) y `[hardware/esquemas/...](https://github.com/Macarena2026/proyecto_final_TEI201/blob/main/hardware/esquemas/...)`.
+[diseno_3d/fusion360/Diseño Avance 3.stl](https://github.com/Macarena2026/proyecto_final_TEI201/blob/main/diseno_3d/fusion360/Dise%C3%B1o%20Avance%203.stl), [diseno_3d/fusion360/Diseño Avance 3.f3z](https://github.com/Macarena2026/proyecto_final_TEI201/blob/main/diseno_3d/fusion360/Dise%C3%B1o%20Avance%203.f3z) y 
