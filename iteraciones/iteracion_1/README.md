@@ -20,7 +20,7 @@ El diseño no llegó a etapa de medición.
 
 ## Decisión
 
-Se decidió `[crear un nuevo diseño que permitiera acoplar el producto a los lentes del usuario]`.
+Se decidió crear un nuevo diseño que permitiera acoplar el producto a los lentes del usuario.
 
 ## Archivos
 
