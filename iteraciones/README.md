@@ -31,6 +31,6 @@ iteraciones/
 
 ## Detalle por versión
 
-- [Iteración 1](iteracion_1/README.md)
-- [Iteración 2](iteracion_2/README.md)
-- [Iteración 3](<iteracion_3/Iteración 3.md>)
+- [Iteración 1](https://github.com/Macarena2026/proyecto_final_TEI201/blob/main/iteraciones/iteracion_1/Iteraci%C3%B3n_1.md)
+- [Iteración 2](https://github.com/Macarena2026/proyecto_final_TEI201/blob/main/iteraciones/iteracion_2/Iteracion_2.md)
+- [Iteración 3](https://github.com/Macarena2026/proyecto_final_TEI201/blob/main/iteraciones/iteracion_3/Iteraci%C3%B3n_3.md)
