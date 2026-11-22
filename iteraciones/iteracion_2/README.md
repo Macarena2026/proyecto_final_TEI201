@@ -1,153 +1,28 @@
 # Iteración 2 - Primera Mejora Significativa
+Fecha: `[DD-MM-2026]`
 
-## Información General
+![Diagrama conceptual de la Iteración 2](<`[ruta/de/tu/diagrama_iteracion_2.png]`>)
 
-**Fecha:** [XX/XX/2025]  
-**Versión:** v2.0  
-**Estado:** Prototipo funcional mejorado  
-**Avance asociado:** Avance #2
+> **Limitación:** `[Indicar limitación principal de esta etapa, ej. enfoque aún conceptual sin medidas exactas o ajustes de acople/ventilación pendientes]`.
 
----
+## Qué se hizo
 
-## Descripción
+En esta segunda iteración se planteó un diseño acoplable a los lentes del usuario `[indicar cambios aplicados respecto a la Iteración 1, ej. prescindiendo del módulo TP4056, incorporando motor vibrador de moneda y manteniendo ESP32-S3 mini, sensor GY-530 y batería LiPo plana de 3.7 V y 2000 mAh]`. `[Describir distribución general de los componentes en el modelo 3D conceptual]`.
 
-Segunda versión del prototipo, incorporando feedback de la iteración 1 y del Avance #1. Incluye mejoras significativas en funcionalidad y primeros pasos en diseño de encapsulado.
+## Qué se midió
 
-**Objetivos de esta iteración:**
-- Corregir problemas identificados en v1
-- Agregar funcionalidades adicionales
-- Iniciar diseño 3D del encapsulado
-- Realizar primeras pruebas con usuarios
+`[Indicar si se realizaron pruebas o mediciones, o si siguió siendo conceptual: ej. Al tratarse de un avance conceptual sin medidas definitivas, no se realizaron mediciones físicas/experimentales / Se registraron X observaciones de ajuste o dimensiones preliminares]`.
 
----
+## Problemas encontrados
 
-## Cambios Respecto a v1
+- **Problema 1:** `[Describir primer problema o limitación detectada en este avance]`.
+- **Problema 2:** `[Describir segundo problema o ajuste necesario en geometría, sujeción o espacio interno]`.
+- **Problema 3:** `[Describir tercer problema o detalle pendiente antes del siguiente avance]`.
 
-### Hardware
-**Agregado:**
-- [Componente nuevo 1]
-- [Componente nuevo 2]
+## Decisión
 
-**Modificado:**
-- [Cambio 1] - Razón: [Justificación]
-- [Cambio 2] - Razón: [Justificación]
+Se decidió `[indicar qué se acordó para la Iteración 3, ej. definir medidas exactas, incorporar canal óptico biselado, ventilación y acoples, y generar el archivo de respaldo de Fusion 360]`.
 
-**Removido:**
-- [Componente removido] - Razón: [Justificación]
+## Archivos
 
-### Software
-**Nuevas funcionalidades:**
-- [Feature 1]
-- [Feature 2]
-
-**Optimizaciones:**
-- [Optimización 1]
-- [Optimización 2]
-
-**Bugs corregidos:**
-- [Bug 1 de v1]
-- [Bug 2 de v1]
-
-### Diseño Mecánico
-- Primer diseño de encapsulado en Fusion 360
-- Prototipo impreso en 3D
-- Integración de componentes en carcasa
-
----
-
-## Fotos del Prototipo v2
-
-Incluir en esta carpeta:
-- `v2_prototipo_completo.jpg`
-- `v2_circuito_integrado.jpg`
-- `v2_encapsulado_inicial.jpg`
-- `v2_testing_usuario.jpg`
-
----
-
-## Resultados de Testing
-
-### Funcionalidad Lograda
-✅ [Función 1]  
-✅ [Función 2]  
-✅ [Función 3]  
-⚠️ [Función 4 - parcial]
-
-### Feedback del Avance #2
-
-**Comentarios del profesor/ayudante:**
-1. [Comentario 1]
-   - Acción: [Plan de mejora para v3]
-
-2. [Comentario 2]
-   - Acción: [Plan de mejora para v3]
-
-### Testing con Usuarios (2-3 personas)
-
-**Resultados cuantitativos:**
-- Facilidad de uso promedio: [X/5]
-- Satisfacción promedio: [X/5]
-
-**Feedback cualitativo:**
-- Positivo: [Comentarios]
-- A mejorar: [Comentarios]
-
----
-
-## Problemas Pendientes
-
-1. **Problema 1:**
-   - Descripción: [Detalles]
-   - Prioridad: Alta/Media/Baja
-   - Plan para v3: [Solución propuesta]
-
-2. **Problema 2:**
-   - Descripción: [Detalles]
-   - Prioridad: Alta/Media/Baja
-   - Plan para v3: [Solución propuesta]
-
----
-
-## Comparación v1 vs v2
-
-| Aspecto | v1 | v2 | Mejora |
-|---------|----|----|--------|
-| Sensores funcionales | 2/3 | 3/3 | ✅ |
-| Tiempo de respuesta | 500ms | 200ms | ↓60% |
-| Consumo energético | 250mA | 180mA | ↓28% |
-| Encapsulado | ❌ | Prototipo | ✅ |
-| Usuarios testeados | 0 | 2 | ✅ |
-
----
-
-## Plan para Iteración 3 (Versión Final)
-
-### Mejoras Críticas
-
-**Hardware:**
-- [ ] [Mejora crítica 1]
-- [ ] [Mejora crítica 2]
-
-**Software:**
-- [ ] [Optimización 1]
-- [ ] [Feature faltante]
-
-**Diseño:**
-- [ ] Refinar encapsulado
-- [ ] Mejorar accesibilidad
-- [ ] Finalizar sistema de montaje
-
-**Testing:**
-- [ ] Testear con 5+ usuarios
-- [ ] Validar métricas ODS
-- [ ] Instalación en contexto real
-
----
-
-## Archivos en esta Carpeta
-
-- `v2_codigo.ino` - Código de esta versión
-- `v2_esquema.png` - Esquema del circuito actualizado
-- `v2_modelo3d.f3d` - Primer diseño en Fusion 360
-- `v2_fotos/` - Fotografías del prototipo
-- `v2_feedback.pdf` - Compilación de comentarios recibidos
+El modelo 3D correspondiente a esta etapa se encuentra en [Diseño avance 2.stl](<../diseño_3d/fusion360/Diseño avance 2.stl>)[cite: 2].
