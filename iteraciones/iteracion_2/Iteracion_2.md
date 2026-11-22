@@ -1,7 +1,7 @@
 # Iteración 2 - Primera Mejora Significativa
 Fecha: `[19-10-2026]`
 
-![Diagrama conceptual de la Iteración 2](<`[ruta/de/tu/diagrama_iteracion_2.png]`>)
+![Diagrama conceptual de la Iteración 2](<./Arquitectura iteración 2.png>)
 
 > **Limitación:**
 La batería seleccionada provocaba que se necesitará un espacio superior al deseado. El modelaje del encapsulado era puramente ideal sin tomar en cuenta las limitaciones por las dimensiones reales de los componentes. 
