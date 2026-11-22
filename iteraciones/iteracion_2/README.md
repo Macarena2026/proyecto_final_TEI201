@@ -1,28 +1,30 @@
 # Iteración 2 - Primera Mejora Significativa
-Fecha: `[DD-MM-2026]`
+Fecha: `[19-10-2026]`
 
 ![Diagrama conceptual de la Iteración 2](<`[ruta/de/tu/diagrama_iteracion_2.png]`>)
 
-> **Limitación:** `[Indicar limitación principal de esta etapa, ej. enfoque aún conceptual sin medidas exactas o ajustes de acople/ventilación pendientes]`.
+> **Limitación:**
+La batería seleccionada provocaba que se necesitará un espacio superior al deseado. El modelaje del encapsulado era puramente ideal sin tomar en cuenta las limitaciones por las dimensiones reales de los componentes. 
 
 ## Qué se hizo
 
-En esta segunda iteración se planteó un diseño acoplable a los lentes del usuario `[indicar cambios aplicados respecto a la Iteración 1, ej. prescindiendo del módulo TP4056, incorporando motor vibrador de moneda y manteniendo ESP32-S3 mini, sensor GY-530 y batería LiPo plana de 3.7 V y 2000 mAh]`. `[Describir distribución general de los componentes en el modelo 3D conceptual]`.
+En esta segunda iteración se planteó un diseño acoplable a los lentes del usuario. Este se planteó de forma puramente referencial, al no contar aún con medidas exactas ni las dimensiones reales de los componentes. Por otra parte, se probo el funcionamiento exitoso del hardware, pero por las nuevas dimensiones del nuevo modelo se cambio la batería LiPo plana 3.7V 2000 mha a una de 500 mha. 
+
 
 ## Qué se midió
 
-`[Indicar si se realizaron pruebas o mediciones, o si siguió siendo conceptual: ej. Al tratarse de un avance conceptual sin medidas definitivas, no se realizaron mediciones físicas/experimentales / Se registraron X observaciones de ajuste o dimensiones preliminares]`.
+`[Se midió la funcionabilidad del motor respecto al sensor con 3 distancias diferentes, en cada una el nivel de vibración variaba para alertar al usuario de la cercanía del obstaculo]`.
 
 ## Problemas encontrados
 
-- **Problema 1:** `[Describir primer problema o limitación detectada en este avance]`.
-- **Problema 2:** `[Describir segundo problema o ajuste necesario en geometría, sujeción o espacio interno]`.
-- **Problema 3:** `[Describir tercer problema o detalle pendiente antes del siguiente avance]`.
+- **Problema 1:** `[El tamaño de la batería original no se ajustaba al encapsulado]`.
+- **Problema 2:** `[Se detecto el desconocimiento de la efectividad de los niveles de vibración frente a alertar al usuario]`.
+- **Problema 3:** `[La construcción ideal del encapsulado, sin tomar en cuenta ninguna dimensión real]`.
 
 ## Decisión
 
-Se decidió `[indicar qué se acordó para la Iteración 3, ej. definir medidas exactas, incorporar canal óptico biselado, ventilación y acoples, y generar el archivo de respaldo de Fusion 360]`.
+Se decidió `[cambiar la batería por una más pequeña y rehacer el modelo 3D tomando en cuenta las dimensiones reales de los componentes]`.
 
 ## Archivos
 
-El modelo 3D correspondiente a esta etapa se encuentra en [Diseño avance 2.stl](<../diseño_3d/fusion360/Diseño avance 2.stl>)[cite: 2].
+El modelo 3D correspondiente a esta etapa se encuentra en [Diseño avance 2.stl](<../diseño_3d/fusion360/Diseño avance 2.stl>)[cite: 2]. El diagrama del hardware de esta etapa se encuentra en 
