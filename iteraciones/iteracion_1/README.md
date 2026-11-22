@@ -2,7 +2,7 @@
 
 Fecha: `[21-09-2026]`
 
-![Diagrama conceptual de la Iteración 1](<./Arquitectura itineración 1.png>)
+![Diagrama conceptual de la Iteración 1](<./Arquitectura iteración 1.png>)
 
 ## Qué se hizo
 
