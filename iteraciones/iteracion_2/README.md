@@ -13,17 +13,17 @@ En esta segunda iteración se planteó un diseño acoplable a los lentes del usu
 
 ## Qué se midió
 
-`[Se midió la funcionabilidad del motor respecto al sensor con 3 distancias diferentes, en cada una el nivel de vibración variaba para alertar al usuario de la cercanía del obstaculo]`.
+Se midió la funcionabilidad del motor respecto al sensor con 3 distancias diferentes, en cada una el nivel de vibración variaba para alertar al usuario de la cercanía del obstaculo.
 
 ## Problemas encontrados
 
-- **Problema 1:** `[El tamaño de la batería original no se ajustaba al encapsulado]`.
-- **Problema 2:** `[Se detecto el desconocimiento de la efectividad de los niveles de vibración frente a alertar al usuario]`.
-- **Problema 3:** `[La construcción ideal del encapsulado, sin tomar en cuenta ninguna dimensión real]`.
+- **Problema 1:** El tamaño de la batería original no se ajustaba al encapsulado.
+- **Problema 2:** Se detecto el desconocimiento de la efectividad de los niveles de vibración frente a alertar al usuario.
+- **Problema 3:** La construcción ideal del encapsulado, sin tomar en cuenta ninguna dimensión real.
 
 ## Decisión
 
-Se decidió `[cambiar la batería por una más pequeña y rehacer el modelo 3D tomando en cuenta las dimensiones reales de los componentes]`.
+Se decidió cambiar la batería por una más pequeña y rehacer el modelo 3D tomando en cuenta las dimensiones reales de los componentes.
 
 ## Archivos
 
