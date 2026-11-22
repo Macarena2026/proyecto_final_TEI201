@@ -2,7 +2,7 @@
 
 Fecha: `[23-11-2026]`
 
-![Diagrama conceptual de la Iteración 2](<./Arquitectura iteración 3.png>)
+![Diagrama conceptual de la Iteración 2](<./Arquitectura iteración 3.0.png>)
 
 
 ![Vista del avance 3D](<./Diseño 3D final.png>)
