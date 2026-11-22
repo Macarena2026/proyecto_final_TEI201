@@ -1,107 +1,27 @@
-# Iteración 1 - Concepto Inicial
+# Iteración 1, concepto inicial
 
-## Información General
+Fecha: `[21-09-2026]`
 
-**Fecha:** [XX/XX/2025]  
-**Versión:** v1.0  
-**Estado:** Prototipo alpha - Prueba de concepto  
-**Avance asociado:** Planificación inicial / Avance #1
+![Arquitectura de la versión 1](`[ruta/arquitectura_v1.png]`)
 
----
+## Qué se hizo
 
-## Descripción
+El primer diseño planteaba la fabricación directa de unos lentes nuevos para el usuario, posicionando el hardware en el espacio usualmente utilizado para los cristales. Los componentes principales consistían en una ESP3-S3 mini, sensor de movimiento GY-530, motor vibrador de cilindro,     y un interruptor. 
 
-Primera versión del prototipo, enfocada en validar la factibilidad técnica del concepto.
+## Qué se midió
 
-**Objetivo de esta iteración:**
-- Probar conexión de sensores básicos
-- Validar comunicación con microcontrolador
-- Demostrar concepto de actuación
-- Circuito básico en protoboard
+El diseño no llegó a etapa de medición. 
 
----
+## Problemas encontrados
 
-## Componentes Utilizados
+- [Problema 1]: Los usuarios podían decidir no usar el producto debido a no querer dejar de utilizar sus lentes actuales.
+- [Problema 2]: Crear lentes desde cero provoca que el producto pierda versatilidad y aumente su precio de elaboración.
+- [Problema 3]: El sistema ubicaba el hardware dentro de un compartimiento que remplazaba los cristales, pero no todas las personas con discapacidad visual están completamente ciegas.
 
-### Hardware
-- Microcontrolador: [Modelo]
-- Sensores:
-  - [Sensor 1]
-  - [Sensor 2]
-- Actuadores:
-  - [Actuador 1]
-- Otros: [Lista]
+## Decisión
 
-### Software
-- IDE: Arduino IDE
-- Librerías: [Lista]
-- Versión código: v1.0
+Se decidió `[crear un nuevo diseño que permitiera acoplar el producto a los lentes del usuario]`.
 
----
+## Archivos
 
-## Fotos del Prototipo
-
-Incluir en esta carpeta:
-- `v1_circuito_protoboard.jpg`
-- `v1_vista_general.jpg`
-- `v1_detalle_conexiones.jpg`
-
----
-
-## Resultados de Testing Inicial
-
-### Funcionalidad Lograda
-✅ [Función 1]  
-✅ [Función 2]  
-❌ [Función 3 - no funcionó]
-
-### Problemas Identificados
-
-1. **Problema 1:**
-   - Descripción: [Detalles]
-   - Causa probable: [Análisis]
-   - Solución propuesta: [Plan]
-
-2. **Problema 2:**
-   - Descripción: [Detalles]
-   - Causa probable: [Análisis]
-   - Solución propuesta: [Plan]
-
----
-
-## Aprendizajes
-
-### Técnicos
-- [Aprendizaje 1]
-- [Aprendizaje 2]
-
-### De Diseño
-- [Aprendizaje 1]
-- [Aprendizaje 2]
-
----
-
-## Plan para Iteración 2
-
-### Mejoras Planificadas
-
-**Hardware:**
-- [ ] [Mejora 1]
-- [ ] [Mejora 2]
-
-**Software:**
-- [ ] [Mejora 1]
-- [ ] [Mejora 2]
-
-**Diseño:**
-- [ ] Iniciar diseño de encapsulado
-- [ ] Mejorar ruteo de cables
-
----
-
-## Archivos en esta Carpeta
-
-- `v1_codigo.ino` - Código de esta versión
-- `v1_esquema.png` - Esquema del circuito
-- `v1_fotos/` - Fotografías del prototipo
-- `v1_notas.txt` - Notas adicionales del equipo
+El archivo donde se muestra el modelo 3D sin terminar se encuentra en 
