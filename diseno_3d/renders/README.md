@@ -10,17 +10,17 @@
 | [Render 4.0.png](./Render%204.0.png) | Vista interior de la distribución de los componentes en el encapsulado principal |
 | [Render 5.0.png](./Render%205.0.png) | Vista interior de la distribución del motor vibrador de moneda en el brazo izquierdo del modelo |
 
-### Render 1 · Vista en perspectiva exterior
-![Render 1](./Render%201.png)
+### Render 1 – Vista en perspectiva exterior
+![Render 1](./Render%201.0.png)
 
-### Render 2
-![Render 2](./Render%202.png)
+### Render 2 – Vista complementaria y soporte de sujeción
+![Render 2](./Render%202.0.png)
 
-### Render 3
-![Render 3](./Render%203.png)
+### Render 3 – Vista de las capas separadas
+![Render 3](./Render%203.0.png)
 
-### Render 4
-![Render 4](./Render%204.png)
+### Render 4 – Vista interior del encapsulado principal
+![Render 4](./Render%204.0.png)
 
-### Render 5
-![Render 5](./Render%205.png)
+### Render 5 – Vista interior del motor vibrador en el brazo izquierdo
+![Render 5](./Render%205.0.png)
