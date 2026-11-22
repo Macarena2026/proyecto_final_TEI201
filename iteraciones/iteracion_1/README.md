@@ -6,7 +6,7 @@ Fecha: `[21-09-2026]`
 
 ## Qué se hizo
 
-El primer diseño planteaba la fabricación directa de unos lentes nuevos para el usuario, posicionando el hardware en el espacio usualmente utilizado para los cristales. Los componentes principales consistían en una ESP3-S3 mini, sensor de movimiento GY-530, motor vibrador de cilindro,     y un interruptor. 
+El primer diseño planteaba la fabricación directa de unos lentes nuevos para el usuario, posicionando el hardware en el espacio usualmente utilizado para los cristales. Los componentes principales consistían en una ESP3-S3 mini, sensor de movimiento GY-530, motor vibrador de cilindro, modulo de carga TP4056 y un interruptor. 
 
 ## Qué se midió
 
@@ -20,8 +20,8 @@ El diseño no llegó a etapa de medición.
 
 ## Decisión
 
-Se decidió crear un nuevo diseño que permitiera acoplar el producto a los lentes del usuario.
+Se decidió crear un nuevo diseño que permitiera acoplar el producto a los lentes del usuario. En consecuencia, para disminuir el tamaño a utilizar se retiro el modelo de carga TP4056 dado que la placa ESP3-S3 mini ya cuenta con es función y se paso a un motor vibrador de moneda. 
 
 ## Archivos
 
-El archivo donde se muestra el modelo 3D sin terminar se encuentra en 
+El archivo donde se muestra el modelo 3D sin terminar se encuentra en [Diseño inicial.stl](./fusion360/Diseño%20inicial.stl)
