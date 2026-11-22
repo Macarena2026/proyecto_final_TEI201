@@ -27,4 +27,4 @@ Se decidió `[cambiar la batería por una más pequeña y rehacer el modelo 3D t
 
 ## Archivos
 
-El modelo 3D correspondiente a esta etapa se encuentra en [Diseño avance 2.stl](<../diseño_3d/fusion360/Diseño avance 2.stl>)[cite: 2]. El diagrama del hardware de esta etapa se encuentra en 
+El modelo 3D correspondiente a esta etapa se encuentra en [Diseño avance 2.stl](<../diseño_3d/fusion360/Diseño avance 2.stl>)[cite: 2]. El diagrama del hardware de esta etapa se encuentra en ![Diagrama de hardware](./../hardware/esquemas/Diagrama%20Circuitos%202.0%20protoboard.jpeg)
