@@ -2,7 +2,7 @@
 
 Fecha: `[21-09-2026]`
 
-![Diagrama conceptual de la Iteración 1](<./Arquitectura iteración 1.png>)
+![Diagrama conceptual de la Iteración 1](<./Arquitectura iteración 1.0.png>)
 > **Limitación:**
 El diseño del hardware contaba con componentes innecesarios (TP4056) o de tamaño poco práctico, además el encapsulado no tomaba en cuenta las necesidades de los usuarios. 
 ## Qué se hizo
