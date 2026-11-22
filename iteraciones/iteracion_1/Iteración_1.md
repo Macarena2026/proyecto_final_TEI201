@@ -25,4 +25,4 @@ Se decidió crear un nuevo diseño que permitiera acoplar el producto a los lent
 
 ## Archivos
 
-El archivo donde se muestra el modelo 3D sin terminar se encuentra en [Diseño inicial.stl](../../diseño_3d/fusion360/Diseño%20inicial.stl)
+El archivo donde se muestra el modelo 3D sin terminar se encuentra en [diseño_3d/fusion360/Diseño inicial.stl](../../diseño_3d/fusion360/Diseño%20inicial.stl)
