@@ -6,7 +6,7 @@ Fecha: `[21-09-2026]`
 
 ## Qué se hizo
 
-El primer diseño planteaba la fabricación directa de unos lentes nuevos para el usuario, posicionando el hardware en el espacio usualmente utilizado para los cristales. Los componentes principales consistían en una ESP3-S3 mini, sensor de movimiento GY-530, motor vibrador de cilindro, modulo de carga TP4056 y un interruptor. 
+El primer diseño planteaba la fabricación directa de unos lentes nuevos para el usuario, posicionando el hardware en el espacio usualmente utilizado para los cristales. Los componentes principales consistían en una ESP3-S3 mini, sensor de movimiento GY-530, batería LiPo plana 3.7 V 2000 mha, motor vibrador de cilindro, modulo de carga TP4056 y un interruptor. 
 
 ## Qué se midió
 
