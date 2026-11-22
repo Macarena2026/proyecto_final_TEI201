@@ -5,7 +5,7 @@ Fecha: `[23-11-2026]`
 ![Diagrama conceptual de la Iteración 2](<./Arquitectura iteración 3.png>)
 
 
-![Vista del avance 3D](./Dise%C3%B1o%20Avance%203.stl)
+![Vista del avance 3D](<./Diseño 3D final.png>)
 
 ## Qué cambió
 
