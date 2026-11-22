@@ -2,7 +2,8 @@
 
 Fecha: `[23-11-2026]`
 
-![Arquitectura de la versión 3](`[ruta/arquitectura_v3.png]`)
+![Diagrama conceptual de la Iteración 2](<./Arquitectura iteración 3.png>)
+
 
 ![Vista del avance 3D](`[ruta/captura_avance_3.png]`)
 
