@@ -2,7 +2,7 @@
 
 Fecha: `[21-09-2026]`
 
-![Arquitectura de la versión 1](`[ruta/arquitectura_v1.png]`)
+![Diagrama conceptual de la Iteración 1](<./Arquitectura itineración 1.png>)
 
 ## Qué se hizo
 
