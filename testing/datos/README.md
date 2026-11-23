@@ -1,107 +1,44 @@
 # Datos de Testing
 
-## Archivos de Datos
+Esta carpeta contiene los resultados de las pruebas de usuario realizadas con el prototipo final (Avance 3) sobre una muestra de **5 participantes** (`U01` a `U05`).
 
-### `datos_cuantitativos.xlsx`
-Hoja de cálculo con todos los datos recolectados durante testing
+## Archivo de Datos
 
-**Estructura sugerida:**
+### `[nombre_de_tu_archivo.xlsx]`
+Hoja de cálculo con las respuestas recolectadas durante las sesiones de prueba, dividida en dos dimensiones principales:
 
-#### Sheet 1: Datos de Usuarios
-| ID Usuario | Edad | Género | Perfil | Fecha Testing |
-|------------|------|--------|--------|---------------|
-| U01 | [edad] | [M/F/Otro] | [descripción] | [fecha] |
+#### 1. Uso del prototipo
+| Pregunta | U01 | U02 | U03 | U04 | U05 | Tasa de éxito |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| ¿Sintió las vibraciones cuando el objeto estaba a corta distancia? | Sí | Sí | Sí | Sí | Sí | 100% (5/5) |
+| ¿Sintió la vibración a una distancia intermedia? | Sí | Sí | Sí | Sí | No | 80% (4/5) |
+| ¿Sintió la vibración cuando el objeto estaba lejos? | Sí | No | Sí | Sí | Sí | 80% (4/5) |
+| ¿Se detuvo gracias a que la vibración le alertó del obstáculo? | Sí | Sí | Sí | Sí | Sí | 100% (5/5) |
 
-#### Sheet 2: Métricas de Usabilidad
-| ID Usuario | Facilidad Uso (1-5) | Satisfacción (1-5) | Tiempo Tarea (seg) | Errores |
-|------------|---------------------|--------------------|--------------------|---------|
-| U01 | 4 | 5 | 45 | 0 |
-
-#### Sheet 3: Métricas de Impacto ODS
-| ID Usuario | Métrica 1 | Métrica 2 | Métrica 3 | Observaciones |
-|------------|-----------|-----------|-----------|---------------|
-| U01 | [valor] | [valor] | [valor] | [texto] |
-
-#### Sheet 4: Feedback Cualitativo
-| ID Usuario | ¿Qué te gustó? | ¿Qué mejorarías? | Otros comentarios |
-|------------|----------------|------------------|-------------------|
-| U01 | [texto] | [texto] | [texto] |
-
----
-
-### `datos_sensores_testing.csv`
-Datos capturados por el prototipo durante sesiones de testing
-
-**Formato:**
-```csv
-timestamp, sensor_1, sensor_2, actuador_1, evento
-2024-11-20 10:15:23, 23.5, 65, ON, usuario_inicio
-2024-11-20 10:15:24, 23.6, 65, ON, normal
-```
-
----
-
-### `comparativa_versiones.xlsx`
-Comparación de métricas entre iteraciones v1, v2, v3
-
-| Métrica | v1 | v2 | v3 | Mejora (%) |
-|---------|-----|-----|-----|------------|
-| Facilidad de uso | 3.2 | 3.8 | 4.5 | +40.6% |
-| Satisfacción | 3.5 | 4.0 | 4.6 | +31.4% |
-| Errores promedio | 2.3 | 1.2 | 0.4 | -82.6% |
+#### 2. Satisfacción y opinión del usuario
+| Pregunta | U01 | U02 | U03 | U04 | U05 |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| Del 1 al 7, ¿cómo calificaría al dispositivo? (1 = terrible, 7 = excelente) | 6 | 6 | 7 | 7 | 6 |
+| ¿Recomendaría el uso del dispositivo? | Sí | Sí | No | No | No |
+| Comentario | — | — | Sobrestimulante | Sobrestimulante | Sobrestimulante |
 
 ---
 
 ## Análisis Estadístico
 
-### Estadísticos Básicos
-Para cada métrica calcular:
-- Media (promedio)
-- Mediana
-- Desviación estándar
-- Mínimo y máximo
-- Percentiles (25%, 50%, 75%)
+### Calificación general del dispositivo (escala 1 a 7)
+* **N:** 5 usuarios
+* **Media:** 6.4
+* **Mediana:** 6.0
+* **Desviación estándar:** 0.55
+* **Mínimo / Máximo:** 6 / 7
 
-### Ejemplo de Tabla de Resumen
-```
-Métrica: Facilidad de Uso (1-5)
-N = 5 usuarios
-Media: 4.2
-Mediana: 4.0
-Desv. Est.: 0.8
-Mín: 3, Máx: 5
-```
-
----
-
-## Datos de Impacto ODS
-
-### Baseline vs. Resultado
-
-**Antes de la intervención (baseline):**
-- [Indicador 1]: [Valor inicial]
-- [Indicador 2]: [Valor inicial]
-
-**Después de la intervención:**
-- [Indicador 1]: [Valor medido con prototipo]
-- [Indicador 2]: [Valor medido con prototipo]
-
-**Mejora:**
-- [Indicador 1]: [% de mejora]
-- [Indicador 2]: [% de mejora]
+### Hallazgos principales
+* **Efectividad de la alerta:** El 100% de los usuarios logró detenerse gracias a la vibración ante un obstáculo y percibió la alerta a corta distancia. En distancias intermedia y lejana la percepción fue del 80% (4 de 5 usuarios).
+* **Oportunidad de mejora (Feedback cualitativo):** Aunque la calificación promedio fue alta (6.4/7), el 60% de los participantes (3 de 5) indicó que **no** recomendaría el dispositivo en su estado actual, coincidiendo en que la vibración resulta **sobrestimulante**. Esto señala que el siguiente paso de ajuste debe enfocarse en suavizar o modular la intensidad/frecuencia del motor vibrador.
 
 ---
 
 ## Visualización de Datos
 
-Incluir gráficos generados (exportar desde Excel como PNG):
 
-- `grafico_usabilidad.png`
-- `grafico_satisfaccion.png`
-- `grafico_impacto_ods.png`
-- `grafico_comparativa_versiones.png`
-
-**Herramientas recomendadas:**
-- Excel / Google Sheets
-- Python (matplotlib, seaborn)
-- R / RStudio
