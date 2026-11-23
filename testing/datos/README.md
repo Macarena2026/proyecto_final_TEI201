@@ -4,7 +4,7 @@ Esta carpeta contiene los resultados de las pruebas de usuario realizadas con el
 
 ## Archivo de Datos
 
-### `[nombre_de_tu_archivo.xlsx]`
+### `[Archivo pruebas practicas.xlsx]`
 Hoja de cálculo con las respuestas recolectadas durante las sesiones de prueba, dividida en dos dimensiones principales:
 
 #### 1. Uso del prototipo
