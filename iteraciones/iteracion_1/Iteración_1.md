@@ -7,7 +7,7 @@ Fecha: `[21-09-2026]`
 El diseño del hardware contaba con componentes innecesarios (TP4056) o de tamaño poco práctico, además el encapsulado no tomaba en cuenta las necesidades de los usuarios. 
 ## Qué se hizo
 
-El primer diseño planteaba la fabricación directa de unos lentes nuevos para el usuario, posicionando el hardware en el espacio usualmente utilizado para los cristales. Los componentes principales consistían en una ESP32-S3 mini, sensor de movimiento GY-530, batería LiPo plana 3.7 V 2000 mha, motor vibrador de cilindro, modulo de carga TP4056 y un interruptor. 
+El primer diseño planteaba la fabricación directa de unos lentes nuevos para el usuario, posicionando el hardware en el espacio usualmente utilizado para los cristales. Los componentes principales consistían en una ESP32-S3 mini, sensor de movimiento GY-530, batería LiPo plana 3.7 V 2000 mAh, motor vibrador de cilindro, modulo de carga TP4056 y un interruptor. 
 
 ## Qué se midió
 
