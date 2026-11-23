@@ -67,4 +67,4 @@ Percepción de vibración por rango de distancia (corta, intermedia y lejos), ta
 * **Recomendaciones para mejoras futuras:** Ajustar la intensidad, duración o patrón de la vibración para reducir la sobrestimación y calibrar la respuesta en rangos intermedios y lejanos antes de nuevas rondas de prueba.
 
 ## 8. Anexos
-* **Datos raw:** Planilla de pruebas prácticas en [Archivo pruebas practicas.xlsx](https://github.com/Macarena2026/proyecto_final_TEI201/blob/main/testing/datos/Archivo%20pruebas%20practicas.xlsx)[cite: 3, 5] y registros fotográficos en [evidencias/](https://github.com/Macarena2026/proyecto_final_TEI201/tree/main/testing/evidencias)[cite: 5].
+* **Datos raw:** Planilla de pruebas prácticas en [Archivo pruebas practicas.xlsx](https://github.com/Macarena2026/proyecto_final_TEI201/blob/main/testing/datos/Archivo%20pruebas%20practicas.xlsx) y registros fotográficos en [evidencias/](https://github.com/Macarena2026/proyecto_final_TEI201/tree/main/testing/evidencias).
