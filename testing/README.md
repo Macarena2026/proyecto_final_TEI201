@@ -1,93 +1,35 @@
-# Testing y Validación
+# Pruebas y validación
 
 ## Objetivo
-Validar el funcionamiento del prototipo con usuarios reales y medir el impacto cuantitativo en la problemática ODS seleccionada.
+Comprobar que el prototipo acoplable alerta de forma efectiva ante obstáculos a distintas distancias, permite que el usuario se detenga a tiempo y entrega información útil para tomar decisiones de mejora. La validación se organizó según el enfoque del proyecto y las pruebas realizadas en el Avance 3.
 
----
+## Niveles de validación
 
-## 📁 Carpetas
+| Nivel | Qué se probó | Estado en este proyecto |
+| :--- | :--- | :--- |
+| **Pruebas prácticas con usuarios** | Cinco personas (`U01` a `U05`) con ojos vendados y el dispositivo acoplado: percepción de vibración a distancia corta, intermedia y lejana, y detención al caminar en línea recta ante un obstáculo[cite: 3]. | **Real**, datos registrados en [Archivo pruebas practicas.xlsx](https://github.com/Macarena2026/proyecto_final_TEI201/blob/main/testing/datos/Archivo%20pruebas%20practicas.xlsx) y respaldo fotográfico (`Sesion_U01.jpeg` a `Sesion_U05.jpeg`). |
+| **Pruebas de banco / sensor en terreno** | Mediciones automáticas de distancia continua del sensor o registros en serie durante recorridos completos. | **No aplicado en este avance** (la validación del Avance 3 se centró en pruebas prácticas presenciales con usuarios). |
 
-#### `reportes/`
-Documentos con resultados del testing
+## Carpetas de testing
 
-#### `evidencias/`
-Fotos y videos de sesiones con usuarios
+| Carpeta | Contenido |
+| :--- | :--- |
+| `informes` | Reporte y documentación asociada a las pruebas de usuario del Avance 3. |
+| `datos` | Planilla con las respuestas de los 5 usuarios (`Archivo pruebas practicas.xlsx`) y documentación de datos. |
+| `evidencias` | Fotografías de las sesiones con los 5 usuarios (`Sesion_U01.jpeg` a `Sesion_U05.jpeg`) y gráficos de resultados. |
 
-#### `datos/`
-Datos cuantitativos recolectados
+## Documentos principales
+* [Archivo pruebas practicas.xlsx](https://github.com/Macarena2026/proyecto_final_TEI201/blob/main/testing/datos/Archivo%20pruebas%20practicas.xlsx)[cite: 4]
+* `[Reporte de testing — pendiente de enlazar si lo subes en PDF/MD]`
 
----
+## Resumen de resultados
 
-## Metodología de Testing
+| Prueba | Resultado | Origen |
+| :--- | :---: | :--- |
+| Percepción de vibración a corta distancia | 100 % (5 de 5)[cite: 3] | Real (`U01` a `U05`) |
+| Percepción de vibración a distancia intermedia | 80 % (4 de 5)[cite: 3] | Real (`U01` a `U05`) |
+| Percepción de vibración a distancia lejana | 80 % (4 de 5)[cite: 3] | Real (`U01` a `U05`) |
+| Detención ante obstáculo por alerta vibratoria | 100 % (5 de 5)[cite: 3] | Real (`U01` a `U05`) |
+| Calificación promedio del dispositivo (escala 1–7) | 6,4 / 7 (mín. 6, máx. 7)[cite: 3] | Real (`U01` a `U05`) |
+| Disposición a recomendar el dispositivo | 40 % Sí (2 de 5) / 60 % No (3 de 5)[cite: 3] | Real (`U01` a `U05`) |
 
-### Grupo Objetivo
-- **Perfil de usuarios:** [Descripción]
-- **Cantidad mínima:** 5 usuarios
-- **Ubicación:** [Contexto real de uso]
-
-### Protocolo de Testing
-1. **Briefing** (5 min)
-   - Explicar propósito del prototipo
-   - Contexto de uso
-
-2. **Sesión de Uso** (15-20 min)
-   - Usuario interactúa con prototipo
-   - Observación sin intervención
-   - Toma de notas
-
-3. **Entrevista Post-Testing** (10 min)
-   - Preguntas sobre experiencia
-   - Feedback cualitativo
-   - Sugerencias de mejora
-
-4. **Encuesta Cuantitativa** (5 min)
-   - Escala Likert (1-5)
-   - Métricas específicas
-
----
-
-## Métricas de Evaluación
-
-### Usabilidad
-- Facilidad de uso (1-5)
-- Claridad de funcionamiento (1-5)
-- Satisfacción general (1-5)
-
-### Impacto ODS
-- [Métrica específica 1 relacionada con ODS]
-- [Métrica específica 2 relacionada con ODS]
-- [Métrica específica 3 relacionada con ODS]
-
-### Desempeño Técnico
-- Tiempo de respuesta del sistema
-- Tasa de errores
-- Confiabilidad
-
----
-
-## Análisis de Resultados
-
-### Cuantitativo
-- Promedios y desviaciones estándar
-- Gráficos de resultados
-- Comparación con baseline
-
-### Cualitativo
-- Temas recurrentes en feedback
-- Problemas identificados
-- Sugerencias de mejora
-
----
-
-## Validación de Impacto ODS
-
-**ODS Seleccionado:** [Número y nombre]
-
-**Meta específica del proyecto:** [Describir]
-
-**Indicadores de impacto:**
-1. [Indicador 1] - Baseline: [X], Meta: [Y], Alcanzado: [Z]
-2. [Indicador 2] - Baseline: [X], Meta: [Y], Alcanzado: [Z]
-
-**Proyección de impacto a escala:**
-[Si el prototipo se despliega en toda la ciudad/comunidad, cuál sería el impacto estimado]
