@@ -41,7 +41,9 @@ Percepción de vibración por rango de distancia (corta, intermedia y lejos), ta
 | U05 | Sí | No | Sí | Sí | 6 | No |
 
 * **Gráficos de resultados:**
+![Gráfico de detección del objeto de prueba](Gr%C3%A1fico%20de%20detecci%C3%B3n%20del%20objeto%20de%20prueba.png)
 
+![Gráfico de la sensación del motor vibrador](Gr%C3%A1fico%20de%20la%20sensaci%C3%B3n%20del%20motor%20vibrador.png)
 * **Análisis estadístico básico:**
   * **Percepción de vibración:** 100% (5/5) a corta distancia; 80% (4/5) a distancia intermedia; 80% (4/5) a distancia lejana.
   * **Detención ante obstáculo:** 100% (5/5) de los usuarios se detuvo gracias a la alerta vibratoria.
