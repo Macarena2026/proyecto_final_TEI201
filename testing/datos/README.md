@@ -40,5 +40,5 @@ Hoja de cálculo con las respuestas recolectadas durante las sesiones de prueba,
 ---
 
 ## Visualización de Datos
-
+Los datos se pueden visualizar aqui [Archivo pruebas practicas.xlsx](https://github.com/Macarena2026/proyecto_final_TEI201/blob/main/testing/datos/Archivo%20pruebas%20practicas.xlsx)
 
