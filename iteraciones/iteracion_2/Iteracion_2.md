@@ -8,7 +8,7 @@ La batería seleccionada provocaba que se necesitará un espacio superior al des
 
 ## Qué se hizo
 
-En esta segunda iteración se planteó un diseño acoplable a los lentes del usuario. Este se planteó de forma puramente referencial, al no contar aún con medidas exactas ni las dimensiones reales de los componentes. Por otra parte, se probo el funcionamiento exitoso del hardware, pero por las nuevas dimensiones del nuevo modelo se cambio la batería LiPo plana 3.7V 2000 mha a una de 500 mha. 
+En esta segunda iteración se planteó un diseño acoplable a los lentes del usuario. Este se planteó de forma puramente referencial, al no contar aún con medidas exactas ni las dimensiones reales de los componentes. Por otra parte, se probo el funcionamiento exitoso del hardware, pero por las nuevas dimensiones del nuevo modelo se cambio la batería LiPo plana 3.7V 2000 mAh a una de 500 mAh. 
 
 
 ## Qué se midió
