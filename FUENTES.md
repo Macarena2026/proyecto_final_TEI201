@@ -18,10 +18,6 @@ Este archivo documenta el origen de los elementos externos o de terceros incorpo
 
 Los archivos del Avance 3 (`Diseño Avance 3.f3z` y `Diseño Avance 3.stl`) incorporan modelos o volúmenes de componentes electrónicos/auxiliares descargados de terceros que no fueron diseñados desde cero por mí (como los modelos de referencia para la ESP32-S3 mini, sensor GY-530 e interruptor). Los datos exactos de autoría, fuente y enlace de descarga de cada modelo externo quedan por completar/verificar en este registro.
 
-## Datasheets y documentación técnica consultada
-
--
-
 ## Datos
 
 | Dato | Origen |
@@ -29,4 +25,4 @@ Los archivos del Avance 3 (`Diseño Avance 3.f3z` y `Diseño Avance 3.stl`) inco
 | | |
 
 ## Herramientas
-Se utilizó la ayuda de la IA para la producción de este proyecto. 
+Se utilizó la ayuda de la IA para la producción de este proyecto. Para la generación de los modelos 3D se utilizó Autodesk Fusion 360. 
