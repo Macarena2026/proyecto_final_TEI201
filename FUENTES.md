@@ -29,3 +29,4 @@ Los archivos del Avance 3 (`Diseño Avance 3.f3z` y `Diseño Avance 3.stl`) inco
 | | |
 
 ## Herramientas
+Se utilizó la ayuda de la IA para la producción de este proyecto. 
